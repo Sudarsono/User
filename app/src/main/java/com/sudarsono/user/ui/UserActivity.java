@@ -127,6 +127,15 @@ public class UserActivity extends AppCompatActivity implements UserView {
         findViewById(R.id.progressBar).setVisibility(View.GONE);
         findViewById(R.id.tvEndOfData).setVisibility(View.VISIBLE);
         removeScrollListener();
+
+        RecyclerView rvUser = findViewById(R.id.rvUser);
+        UserAdapter adapter = (UserAdapter) rvUser.getAdapter();
+        if (adapter != null && adapter.isEmpty()) {
+            findViewById(R.id.tvEndOfData).setVisibility(View.GONE);
+            TextView tvWarningMessage = findViewById(R.id.tvWarningMessage);
+            tvWarningMessage.setText(R.string.no_data_to_display);
+            tvWarningMessage.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
