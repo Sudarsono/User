@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">User</string>
+    <string name="end_of_data">End of data</string>
+    <string name="search_user">Search Github users</string>
+    <string name="limit_exceeded">Github users not available. Please try again in a few minutes</string>
+    <string name="network_error">Failed to featch data. Please check your network connection</string>
+</resources>
