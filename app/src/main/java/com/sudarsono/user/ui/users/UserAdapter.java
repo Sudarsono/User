@@ -1,4 +1,4 @@
-package com.sudarsono.user.ui;
+package com.sudarsono.user.ui.users;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 import com.sudarsono.user.R;
-import com.sudarsono.user.dao.User;
+import com.sudarsono.user.dto.User;
 
 import java.util.ArrayList;
 import java.util.List;

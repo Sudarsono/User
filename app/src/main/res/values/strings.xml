@@ -5,4 +5,8 @@
     <string name="limit_exceeded">Github users not available. Please try again in a few minutes</string>
     <string name="network_error">Failed to fetch data. Please check your network connection</string>
     <string name="no_data_to_display">No data to display</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="select">Select</string>
 </resources>

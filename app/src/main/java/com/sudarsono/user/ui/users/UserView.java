@@ -1,6 +1,6 @@
-package com.sudarsono.user.ui;
+package com.sudarsono.user.ui.users;
 
-import com.sudarsono.user.dao.User;
+import com.sudarsono.user.dto.User;
 import com.sudarsono.user.util.BaseView;
 
 import java.util.List;

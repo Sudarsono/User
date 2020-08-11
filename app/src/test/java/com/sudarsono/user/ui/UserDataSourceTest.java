@@ -1,8 +1,9 @@
 package com.sudarsono.user.ui;
 
 import com.sudarsono.user.UserService;
-import com.sudarsono.user.dao.User;
-import com.sudarsono.user.dao.UserPagination;
+import com.sudarsono.user.dto.User;
+import com.sudarsono.user.dto.UserPagination;
+import com.sudarsono.user.ui.users.UserDataSource;
 
 import org.junit.After;
 import org.junit.Before;

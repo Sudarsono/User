@@ -1,7 +1,7 @@
 package com.sudarsono.user;
 
-import com.sudarsono.user.dao.User;
-import com.sudarsono.user.dao.UserPagination;
+import com.sudarsono.user.dto.User;
+import com.sudarsono.user.dto.UserPagination;
 
 import java.util.List;
 

@@ -1,8 +1,10 @@
-package com.sudarsono.user.dao;
+package com.sudarsono.user.dto;
 
 import com.google.gson.annotations.SerializedName;
 
 public class User {
+
+    private String id;
 
     @SerializedName("login")
     private String username;
@@ -24,5 +26,13 @@ public class User {
 
     public void setAvatarUrl(String avatarUrl) {
         this.avatarUrl = avatarUrl;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

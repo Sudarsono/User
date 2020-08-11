@@ -1,9 +1,9 @@
-package com.sudarsono.user.ui;
+package com.sudarsono.user.ui.users;
 
 import com.sudarsono.user.UserService;
 import com.sudarsono.user.contract.ApiContract;
-import com.sudarsono.user.dao.User;
-import com.sudarsono.user.dao.UserPagination;
+import com.sudarsono.user.dto.User;
+import com.sudarsono.user.dto.UserPagination;
 
 import java.util.List;
 

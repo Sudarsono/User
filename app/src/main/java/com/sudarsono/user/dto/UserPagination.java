@@ -1,7 +1,6 @@
-package com.sudarsono.user.dao;
+package com.sudarsono.user.dto;
 
 import com.google.gson.annotations.SerializedName;
-import com.sudarsono.user.dao.User;
 
 import java.util.List;
 

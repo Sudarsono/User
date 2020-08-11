@@ -1,7 +1,10 @@
 package com.sudarsono.user.ui;
 
-import com.sudarsono.user.dao.User;
-import com.sudarsono.user.dao.UserPagination;
+import com.sudarsono.user.dto.User;
+import com.sudarsono.user.dto.UserPagination;
+import com.sudarsono.user.ui.users.UserDataSource;
+import com.sudarsono.user.ui.users.UserPresenterImpl;
+import com.sudarsono.user.ui.users.UserView;
 import com.sudarsono.user.util.schedulers.BaseSchedulerProvider;
 import com.sudarsono.user.util.schedulers.ImmediateSchedulerProvider;
 

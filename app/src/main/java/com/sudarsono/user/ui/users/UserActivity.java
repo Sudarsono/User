@@ -1,4 +1,4 @@
-package com.sudarsono.user.ui;
+package com.sudarsono.user.ui.users;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.widget.NestedScrollView;
@@ -15,7 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.sudarsono.user.R;
-import com.sudarsono.user.dao.User;
+import com.sudarsono.user.dto.User;
 import com.sudarsono.user.util.schedulers.SchedulerProvider;
 
 import java.util.List;

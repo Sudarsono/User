@@ -1,4 +1,4 @@
-package com.sudarsono.user.ui;
+package com.sudarsono.user.ui.users;
 
 import com.sudarsono.user.util.BasePresenter;
 
